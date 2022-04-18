@@ -1,6 +1,8 @@
 .services-title {
     text-align: center;
-    color: blue;
+    color: darkgreen;
+    margin: 50px;
+    padding-top: 20px;
 }
 
 .services-container {
