@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "mutton kacchi",
+        "name": "Hilsha Fry",
         "price": 399,
         "description": "kacchi with 2piece mutton, egg and potato",
         "img": "https://i.ibb.co/D9bqCj8/242592017-386575523106533-8333350183866182749-n-1.jpg"
@@ -21,14 +21,14 @@
         "img": "https://i.ibb.co/9wBCd7P/240673542-386575459773206-6900631836753961594-n.jpg"
     },
     {
-        "id": 6,
+        "id": 3,
         "name": "mutton kacchi",
         "price": 399,
         "description": "kacchi with 2piece mutton, egg and potato",
         "img": "https://i.ibb.co/GFWYMf2/122703802-164796218617799-7466088668509437770-n-1.jpg"
     },
     {
-        "id": 7,
+        "id": 4,
         "name": "mutton kacchi",
         "price": 399,
         "description": "kacchi with 2piece mutton, egg and potato",
