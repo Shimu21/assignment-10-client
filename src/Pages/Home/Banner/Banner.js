@@ -1,6 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import slider1 from '../../../image/slider1.png';
+import slider2 from '../../../image/slider2.png';
+import slider3 from '../../../image/slider3.png';
 
 const Banner = () => {
     return (
@@ -13,32 +15,32 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Malai-Pudding</h3>
+                        <p>Creamy malai egg puding. The authentic taste you can get here</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={slider1}
+                        src={slider2}
                         alt="Second slide"
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Old-Town Famous Teheri</h3>
+                        <p>This Beef Teheri is the most popular food item among Bengali's culture</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={slider1}
+                        src={slider3}
                         alt="Third slide"
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>Beef Nehari</h3>
+                        <p>Bengali's most favorite food item</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
