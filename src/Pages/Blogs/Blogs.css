@@ -1,0 +1,50 @@
+.theory {
+    margin-top: 20px;
+    margin-bottom: 220px;
+}
+
+.authorization {
+    margin: auto;
+    border: 2px solid darkgreen;
+    border-radius: 4px;
+    padding: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.authentication {
+    margin: auto;
+    border: 2px solid darkgreen;
+    border-radius: 4px;
+    padding: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.blog-qa {
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 30px;
+
+}
+
+.blog-qa2 {
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 30px;
+    text-align: justify;
+}
+
+.blog-qa3 {
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    margin-top: 70px;
+    padding: 30px;
+    text-align: justify;
+}

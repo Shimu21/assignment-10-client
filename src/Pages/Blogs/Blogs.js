@@ -1,43 +1,51 @@
 import React from 'react';
+import './Blogs.css'
 
 const Blogs = () => {
     return (
-        <div>
-            <div className='blogs'>
-                <h2>Theoritical Parts</h2>
+        <div className='theory'>
+            <div>
+                <h2 style={{ color: 'green', marginTop: 10 }}>Theoritical Part</h2>
             </div>
-            <div className='blog'>
-                <div>
+            <div>
+                <div className='blog-qa'>
                     <h6>Question no.1: What are the differences between authorization and authentication?</h6>
                     <h6>Answer: Differences between authorization and authentication shown below:</h6>
-                    <div class="container d-flex mt-3">
-                        <div class="mx-auto">
-                            authorization
+                    <div className="container d-flex mt-10">
+                        <div className="authorization">
+                            Authorization
                             <ul>
-                                <li>Property is called props.</li>
-                                <li>Props are used to pass data from
-                                    one component to another.
+                                <li>1. Authorization is process of verifying what specific applications, files and data a user has access to. </li>
+                                <li>2. Authorization is the process of giving the user permission to access a specific resource or function.
                                 </li>
-                                <li>Props are external.</li>
+                                <li>3. Authorization must follow authentication.</li>
                             </ul>
                         </div>
-                        <div class="mx-auto">
-                            authentication
+                        <div className="authentication">
+                            Authentication
                             <ul>
-                                <li>State is somethhing that could change.</li>
-                                <li>State is a local data storage that can not be passed to other components.</li>
-                                <li>State is internal.</li>
+                                <li>1. This is the first step of any security process</li>
+                                <li>2. This is the process of verifying who someone is. </li>
+                                <li>3. User name and password are the most common authentication factors of it.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div className='bonus1'>
-                    <h6>Question no.1: Why are you using firebase? What other options do you have to implement authentication? </h6>
-                    <h6>Answer: React is a declarative, efficient, flexible javascripts library. It helps for building
-                        user interfaces.  It has four ways to identify the types of Components.
-                        Components are used to display data in the UI which we want to see. When our data changes,
-                        react will re-render and update our compopnents. In summary, we can say react is a very
-                        needful javascript library to build interactive website.
+                <div className='blog-qa2'>
+                    <h6>Question no.2: Why are you using firebase? What other options do you have to implement authentication? </h6>
+                    <h6>Answer: Firebase authentication provides backend services, easy to use SDKs and ready made UI libraries to authenticate user to
+                        to your app.
+                        Other ways to authentication can be through cards, retina scans, voice recognition and fingerprints.
+                    </h6>
+                </div>
+                <div className='blog-qa3'>
+                    <h6>Question no.2: What other services does firebase provides other than authentication? </h6>
+                    <h6>Answer: Firebase Auth Alternatives:
+                        * Parse - open Source Backend Platform.
+                        * Back4app - Parse Hosting Platform.
+                        * Kinvey - Mobile Backend as a Service for the enterprise.
+                        * Backendless - Mobile Backend and API Services Platform.
+
                     </h6>
                 </div>
             </div>
