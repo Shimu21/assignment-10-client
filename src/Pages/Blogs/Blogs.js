@@ -24,7 +24,7 @@ const Blogs = () => {
                         <div className="authentication">
                             Authentication
                             <ul>
-                                <li>1. This is the first step of any security process</li>
+                                <li>1. This is the first step of any security process</li> <br />
                                 <li>2. This is the process of verifying who someone is. </li>
                                 <li>3. User name and password are the most common authentication factors of it.</li>
                             </ul>
