@@ -3,35 +3,35 @@
         "id": 1,
         "name": "Hilsha Fry",
         "price": 399,
-        "description": "kacchi with 2piece mutton, egg and potato",
+        "description": "Hilsha Fry is the best at My Kitchen",
         "img": "https://i.ibb.co/D9bqCj8/242592017-386575523106533-8333350183866182749-n-1.jpg"
     },
     {
         "id": 2,
-        "name": "mutton kacchi",
-        "price": 399,
-        "description": "kacchi with 2piece mutton, egg and potato",
+        "name": "Mutton kacchi",
+        "price": 799,
+        "description": "Kacchi with 2piece mutton, egg and potato",
         "img": "https://i.ibb.co/jR0b7NB/241229970-386574996439919-8422859941975488706-n.jpg"
     },
     {
         "id": 3,
-        "name": "mutton kacchi",
-        "price": 399,
-        "description": "kacchi with 2piece mutton, egg and potato",
+        "name": "Mejbani-Beef",
+        "price": 699,
+        "description": "Chittagong's Special Beef Mejbani",
         "img": "https://i.ibb.co/9wBCd7P/240673542-386575459773206-6900631836753961594-n.jpg"
     },
     {
         "id": 4,
-        "name": "mutton kacchi",
-        "price": 399,
-        "description": "kacchi with 2piece mutton, egg and potato",
+        "name": "Mutton-Nehari",
+        "price": 999,
+        "description": "Loaded with Gravy n Spicy Masala",
         "img": "https://i.ibb.co/GFWYMf2/122703802-164796218617799-7466088668509437770-n-1.jpg"
     },
     {
         "id": 5,
-        "name": "mutton kacchi",
-        "price": 399,
-        "description": "kacchi with 2piece mutton, egg and potato",
+        "name": "Seasonal-Jelly",
+        "price": 499,
+        "description": "Mango, Orange, Pineapple ect Jelly are available",
         "img": "https://i.ibb.co/6RpGT9d/117911077-139200847844003-5851372014764997398-n.jpg"
     }
 ]
