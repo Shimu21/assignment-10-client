@@ -1,22 +1,21 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
 import { getAuth } from 'firebase/auth';
+import { initializeApp } from "firebase/app";
+// Import the functions you need from the SDKs you need
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyB-wW6vURd7NwU70Sn5rbrTewahNzhpWas",
-    authDomain: "my-cooking-services.firebaseapp.com",
-    projectId: "my-cooking-services",
-    storageBucket: "my-cooking-services.appspot.com",
-    messagingSenderId: "503269987211",
-    appId: "1:503269987211:web:c10c698c7e4d228404958e"
+    apiKey: "AIzaSyCPwPKXhEAtStvXYqCdHRruC-l9oC58DEE",
+    authDomain: "cooking-app-11648.firebaseapp.com",
+    projectId: "cooking-app-11648",
+    storageBucket: "cooking-app-11648.appspot.com",
+    messagingSenderId: "623221509857",
+    appId: "1:623221509857:web:97ddd4937cc4c8f36a31a0"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
 const auth = getAuth(app);
 
 export default auth;
