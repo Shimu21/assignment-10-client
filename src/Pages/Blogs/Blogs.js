@@ -41,9 +41,10 @@ const Blogs = () => {
                 <div className='blog-qa3'>
                     <h6>Question no.2: What other services does firebase provides other than authentication? </h6>
                     <h6>Answer: Firebase Auth Alternatives:
-                        * Parse - open Source Backend Platform.
-                        * Back4app - Parse Hosting Platform.
-                        * Kinvey - Mobile Backend as a Service for the enterprise.
+                        <br />
+                        * Parse - open Source Backend Platform. <br />
+                        * Back4app - Parse Hosting Platform. <br />
+                        * Kinvey - Mobile Backend as a Service for the enterprise. <br />
                         * Backendless - Mobile Backend and API Services Platform.
 
                     </h6>

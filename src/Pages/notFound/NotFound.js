@@ -1,13 +1,19 @@
 import React from 'react';
 import { EmojiSadIcon } from '@heroicons/react/solid'
+import './NotFound.css'
 
 
 
 const NotFound = () => {
     return (
-        <div>
-            <h1 className='text-5xl font-bold mt-8'>Page is sleeping</h1>
-            <EmojiSadIcon className='h-50 w-50 align-middle text-red-700'></EmojiSadIcon>
+        <div className='sleeping'>
+            <div className="container">
+                <h1 className='text-5xl font-bold mt-8 text-green-700'>Page is sleeping</h1>
+            </div>
+
+            <div className="container">
+                <EmojiSadIcon className='emo'></EmojiSadIcon>
+            </div>
 
 
         </div>
